@@ -1,6 +1,3 @@
-library(Rcpp)
-sourceCpp("Jarvis_march.cpp")
-
 # jarvis march
 jarvis_march <- function(df) {
   hull <- convex_hull(df)
