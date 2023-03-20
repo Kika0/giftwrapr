@@ -1,11 +1,11 @@
-Package: praxi1
+Package: giftwrapr
 Type: Package
-Title: What the Package Does in One 'Title Case' Line
+Title: Jarvis march algorithm for distinct point in the plane
 Version: 1.0
 Date: 2023-03-20
-Author: Your Name
-Maintainer: Your Name <your@email.com>
-Description: One paragraph description of what the package does as one or more full sentences.
+Author: Kristina Bratkova
+Maintainer: Kristina Bratkova <kbratkov0@gmail.com>
+Description: The package run Jarvis march algorithm on data given by a single vector, a list or a data frame specifying (x,y) coordinates. `jarvis_march()` returns a dataframe of line segments forming the hull, `in_hull()` returns boolean values of points on the hull and `plot_hull()`plots the points and their convex hull.
 License: GPL (>= 2)
 Imports: Rcpp (>= 1.0.10)
 LinkingTo: Rcpp
