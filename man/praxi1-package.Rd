@@ -1,6 +1,6 @@
-\name{praxi1-package}
-\alias{praxi1-package}
-\alias{praxi1}
+\name{giftwrapr-package}
+\alias{giftwrapr-package}
+\alias{giftwrapr}
 \docType{package}
 \title{
   A short title line describing what the package does
