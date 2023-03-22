@@ -12,7 +12,7 @@ Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
 
 // convex_hull
 std::vector<std::vector<double> > convex_hull(std::vector<std::vector<double> > v);
-RcppExport SEXP _praxi1_convex_hull(SEXP vSEXP) {
+RcppExport SEXP _giftwrapr_convex_hull(SEXP vSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -23,7 +23,7 @@ END_RCPP
 }
 // rcpp_hello_world
 List rcpp_hello_world();
-RcppExport SEXP _praxi1_rcpp_hello_world() {
+RcppExport SEXP _giftwrapr_rcpp_hello_world() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -33,12 +33,12 @@ END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
-    {"_praxi1_convex_hull", (DL_FUNC) &_praxi1_convex_hull, 1},
-    {"_praxi1_rcpp_hello_world", (DL_FUNC) &_praxi1_rcpp_hello_world, 0},
+    {"_giftwrapr_convex_hull", (DL_FUNC) &_giftwrapr_convex_hull, 1},
+    {"_giftwrapr_rcpp_hello_world", (DL_FUNC) &_giftwrapr_rcpp_hello_world, 0},
     {NULL, NULL, 0}
 };
 
-RcppExport void R_init_praxi1(DllInfo *dll) {
+RcppExport void R_init_giftwrapr(DllInfo *dll) {
     R_registerRoutines(dll, NULL, CallEntries, NULL, NULL);
     R_useDynamicSymbols(dll, FALSE);
 }
