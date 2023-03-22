@@ -8,5 +8,5 @@ Maintainer: Kristina Bratkova <kbratkov0@gmail.com>
 Description: The package run Jarvis march algorithm on data given by a single vector, a list or a data frame specifying (x,y) coordinates. `jarvis_march()` returns a dataframe of line segments forming the hull, `in_hull()` returns boolean values of points on the hull and `plot_hull()`plots the points and their convex hull.
 License: GPL (>= 2)
 Imports: Rcpp (>= 1.0.10)
-Depends: Tidyverse (>= 2.0.0)
+Depends: tidyverse (>= 2.0.0)
 LinkingTo: Rcpp
