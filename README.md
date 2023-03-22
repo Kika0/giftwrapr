@@ -16,4 +16,4 @@ devtools::install_github("Kika0/giftwrapr")
 library(giftwrapr)
 ```
 
-NOTE: In terms of computational complexity and runtime, this algorithm and code is not the most effective. If the aim is speed, Graham's scan algorithm has optimal computational complexity for finding the convex hull of points in the plane and has been implemented in [Python]("https://github.com/DC00/Polya") and [C++]("https://github.com/allfii/ConvexHull").
+NOTE: In terms of computational complexity and runtime, this algorithm and code is not the most effective. If the aim is speed, Graham's scan algorithm has optimal computational complexity for finding the convex hull of points in the plane and has been implemented in [Python](https://github.com/DC00/Polya) and [C++](https://github.com/allfii/ConvexHull).
