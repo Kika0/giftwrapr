@@ -1,3 +1,3 @@
-useDynLib(praxi1, .registration=TRUE)
+useDynLib(giftwrapr, .registration=TRUE)
 importFrom(Rcpp, evalCpp)
 exportPattern("^[[:alpha:]]+")
