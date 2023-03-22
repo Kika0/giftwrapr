@@ -2,10 +2,10 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 convex_hull <- function(v) {
-    .Call(`_praxi1_convex_hull`, v)
+    .Call(`_giftwrapr_convex_hull`, v)
 }
 
 rcpp_hello_world <- function() {
-    .Call(`_praxi1_rcpp_hello_world`)
+    .Call(`_giftwrapr_rcpp_hello_world`)
 }
 
