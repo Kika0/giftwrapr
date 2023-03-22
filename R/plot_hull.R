@@ -15,6 +15,9 @@ plot_hull <- function(points) {
         yellow='#FDD10A'
 # run jarvis_march
 hull <- jarvis_march(points)
+# marshall points data
+df <- points %>% marshall() %>% t() %>% as.data.frame()
+colnames(df) <- c("X","Y")
       p <- ggplot() + 
             geom_polygon(hull, mapping = aes(x=x_0,y=y_0),alpha=0.7,color=red,fill=yellow,linewidth=1.5) +
             geom_point(data=df, mapping = aes(x=X,y=Y),color=green,size=2) +

@@ -8,6 +8,7 @@
 #'
 #' @examples
 in_hull <- function(points,hull) {
+  points <- points %>%  marshall()
   hull_bool <- c()
   for (i in 1:length(points)) {
     # point is in hull when x(1) and y(2) coordinates match of one of points in the convex hull

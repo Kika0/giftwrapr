@@ -10,7 +10,7 @@ marshall <- function(data) {
   if (class(data)=="data.frame") {
     if (nrow(data)==2 | ncol(data)==2) {
       if (ncol(data)==2) {
-      data <-   data %>% t() # transpose the data to have two rows
+      data <-   data %>% t() %>% data.frame() # transpose the data to have two rows
       }
     }
     else {
