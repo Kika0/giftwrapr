@@ -1,11 +1,11 @@
-\name{giftwrapr}
-\alias{giftwrapr}
+\name{giftwrapr-package}
+\alias{giftwrapr-package}
 \docType{package}
 \title{
   Jarvis march algorithm (C++)
 }
 \description{
-  package computes convex hull for a set of points given by dataframe or a list of vectors.
+  Package computes convex hull for a set of points given by dataframe or a list of vectors.
 }
 \details{
 The package contains 3 functions. `jarvis_march()` computes convex hull of a set of points in the plane and returns dataframe of coordinates of the line segments forming the convex hull.  in_hull()` takes two arguments: a set of points and `jarvis_march()` output for a set of points (see examples) and returns True/False for each point whether it is inside the polygon. `plot_hull()` takes a set of points and outputs ggplot of their convex hull. See \man folder of the GitHub repository for more documentation.
