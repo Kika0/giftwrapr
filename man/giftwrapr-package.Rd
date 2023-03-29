@@ -14,7 +14,7 @@
   package, including the most important functions.
 }
 \author{
-Kristina Bratkova, email optional.
+Kristina Bratkova, kbratkov0@gmail.com.
 
 Maintainer: Kristina Bratkova <kbratkov0@gmail.com>
 }
@@ -27,8 +27,7 @@ Maintainer: Kristina Bratkova <kbratkov0@gmail.com>
   Optional links to other man pages
 }
 \examples{
-  \dontrun{
-     ## Optional simple examples of the most important functions
-     ## These can be in \dontrun{} and \donttest{} blocks.   
-  }
+jarvis_march(tree)
+plot_hull(tree)
+in_hull()
 }
