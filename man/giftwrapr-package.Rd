@@ -5,7 +5,7 @@
   Jarvis march algorithm (C++)
 }
 \description{
-  Package computes convex hull for a set of points
+  Package computes convex hull of a set of points
   
   given by dataframe or a list of vectors.
 }
